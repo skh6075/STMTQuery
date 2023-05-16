@@ -10,7 +10,7 @@ final class STMTQueryParam{
 
 	public function __construct(
 		public string $type,
-		public int|float|string $value
+		public int|double|string $value
 	){}
 
 	public static function safeCreate(string $type, int|float|string $value): STMTQueryParam{
