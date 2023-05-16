@@ -13,5 +13,5 @@ final class STMTQueryResult{
 	 */
 	public array $values;
 
-	public mysqli_result $result;
+	public bool|mysqli_result $result;
 }
