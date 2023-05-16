@@ -6,7 +6,7 @@ require_once "./STMTQueryParam.php";
 require_once "./STMTQueryResult.php";
 
 final class STMTConnector{
-	private function __construct(private mysqli $mysqli){
+	public function __construct(private mysqli $mysqli){
 		if($mysqli->errno){
 			die("Connect Error: $mysqli->error");
 		}
