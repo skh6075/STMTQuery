@@ -73,7 +73,7 @@ final class STMTConnector{
 				$result->errno = 1;
 				$result->error = 'Unable to get query result: bad query expected';
 			}else{
-				$result->result = $stmt->get_result();
+				$result->result = $get_result;
 			}
 		}else{
 			$result->errno = 1;
