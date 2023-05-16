@@ -9,7 +9,7 @@ final class STMTQueryParam{
 	public const TYPE_BLOB = 'b';
 
 	public function __construct(
-		public readonly string $type,
+		public string $type,
 		public int|float|string $value
 	){}
 
