@@ -2,7 +2,7 @@
 Using PHP mysqli queries safely
 
 ## Requirements
-* PHP Version >= ```8.2```
+* PHP Version >= ```8.x```
 
 ## Usage
 
