@@ -31,9 +31,9 @@ final class STMTQueryParam{
 				return is_int($this->value);
 			case self::TYPE_DOUBLE:
 				if(is_numeric($this->value)){
-					$this->value = (float) $this->value;
+					$this->value = (double) $this->value;
 				}
-				return is_float($this->value);
+				return is_double($this->value);
 			case self::TYPE_STRING:
 			case self::TYPE_BLOB:
 				if(!is_string($this->value) && !is_object($this->value) && !is_array($this->value)){
